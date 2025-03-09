@@ -1,0 +1,19 @@
+add_single_product:
+  product_name: Яблоки Голден
+  quantity: 1
+
+remove_product:
+  search_phrace: яблоки
+  product_name: Яблоки Россия
+  quantity: 1
+
+check_total_price:
+  search_phrace: яблоки
+  product_name_1: Яблоки Россия
+  product_name_2: Яблоки Гренни смит
+  product_name_3: Яблоки Голден
+  quantity: 3
+
+cart_item_quantity_increase:
+  search_phrace: бананы
+  quantity: 2
