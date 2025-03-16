@@ -3,6 +3,7 @@ from helpers.pages.main_page import MainPage
 from helpers.data_provider import DataProvider
 
 
+@allure.epic('Тестирование функциональности адреса')
 class TestAddress:
     main_page = MainPage()
 
