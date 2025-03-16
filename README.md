@@ -29,7 +29,7 @@
   <img src="https://github.com/DmitryAsl/samokat_project/blob/master/data/pictures/jenkins_build_param.png" />
   </p>  
   
-  > **Выбрать параметры из выпадающих список и нажать "Build"**
+  > **Выбрать параметры из выпадающих списков и нажать "Build"**
   <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/build_jenkins.jpg" />
   
   > Результаты запуска находятся в левом углу, последний запуск
