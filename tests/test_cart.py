@@ -48,6 +48,7 @@ class TestCart:
         finally:
             self.main_page.clear_cart()
 
+    @allure.title('Тест на проверку увеличения количества конкретного товара в корзине')
     def test_cart_item_quantity_increase(self, browser_with_selected_address):
         param = DataProvider.get(name='cart', partition='cart_item_quantity_increase')
 

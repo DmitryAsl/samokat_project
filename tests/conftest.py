@@ -51,10 +51,8 @@ def browser_config():
     else:
         if browser_name == 'chrome':
             driver = webdriver.Chrome(options=options)
-            print(driver.capabilities)
         elif browser_name == 'firefox':
             driver = webdriver.Firefox(options=options)
-            print(driver.capabilities)
         else:
             raise ValueError(f'Unsupported broswer: {browser_name}')
 
