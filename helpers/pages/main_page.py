@@ -73,8 +73,8 @@ class MainPage:
             cost += price
         return cost
 
-    def check_selected_address(self):
-        return self.__get_selected_address().should()
+    def check_not_selected_address(self):
+        return browser.element('[class*=EmptyAddressPlug_badgeWrapper]').should(be.visible)
 
     @allure.step("Проверяем результат добавление товара в корзины")
     def assert_result_addition_product_to_cart(self, product_name):

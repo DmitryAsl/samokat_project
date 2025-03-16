@@ -82,8 +82,8 @@ def browser_with_selected_address(browser_config):
     # одной перезагрузки страницы почему то хватает не всегда
     main_page.open()
     try:
-        if browser.element('[class*=EmptyAddressPlug_badgeWrapper]').should(be.visible):
+        if main_page.check_not_selected_address():
             main_page.open()
     except AssertionError:
-        # Продолжаем выполнение, просто повторная перезагрузка страницы не нужна
+        # Продолжаем выполнение, повторная перезагрузка страницы в этом случае не нужна, т.к. она иногда мешает
         pass
