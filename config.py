@@ -8,9 +8,9 @@ BrowserType = Literal['chrome', 'firefox', 'edge']
 
 class Config(pydantic_settings.BaseSettings):
     base_url: str = 'https://samokat.ru'
-    login: str
-    password: str
-    browser_name: BrowserType = 'firefox'
+    login: str = ''
+    password: str = ''
+    browser_name: BrowserType = 'chrome'
     browser_version: str = '125.0'
     run_mode: str = 'local'
     window_width: int = 1920
