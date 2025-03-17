@@ -30,7 +30,7 @@
   </p>  
   
   > **Выбрать параметры из выпадающих списков и нажать "Build"**
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/build_jenkins.jpg" />
+  <img src="https://github.com/DmitryAsl/samokat_project/blob/master/data/pictures/build_jenkins.jpg" />
   
   > Результаты запуска находятся в левом углу, последний запуск
   <img src="https://github.com/DmitryAsl/samokat_project/blob/master/data/pictures/check_build.jpg" />
@@ -70,7 +70,6 @@
 
 > Автоматически настроена отправка оповещения о результатах прохождения тестов в чат **Telegram** с тегом ответственных людей.  
 > В оповещении присутствует общая информация о запуске и ссылка на отчет в **Allure**.  
->> Для наглядности был выбран запуск тестов с ошибкой (упавший тест - плавающий баг на сайте)
 <img src="https://github.com/DmitryAsl/samokat_project/blob/master/data/pictures/notifications_tg.png" />
 
 ### Демонстрация прохождения одного из тестов
