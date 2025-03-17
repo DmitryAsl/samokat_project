@@ -1,7 +1,6 @@
 import pytest
 from selenium import webdriver
-from selene import browser, query, be
-from dotenv import load_dotenv
+from selene import browser
 from selenium.webdriver.chrome.options import Options
 from config import config
 
